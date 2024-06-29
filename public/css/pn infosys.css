@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.ba {
+  background-color: #d0d4d5;
+  
+}
+
+.cate {
+  background-color: white;
+  text-align: center;
+}
+
+.search {
+  color: #FFD333 !important;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  /* color: var(--bs-body-color); */
+  text-align: center;
+  white-space: nowrap;
+  /* background-color: var(--bs-tertiary-bg); */
+  border: var(--bs-border-width) solid var(--bs-border-color);
+}
+
+.a {
+  text-decoration: none;
+  background-color: transparent;
+  color: white !important;
+  margin-right: 15px;
+}
+
+.b {
+  color: #FFD333 !important;
+
+}
+
+.f {
+  color: #00b0b5 !important;
+  background-color: transparent !important;
+  text-decoration: none;
+
+}
+
+
+
+
+.c {
+  margin-right: 15px;
+}
+
+.d {
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.s {
+  padding-top: 225px;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(61, 70, 77, 0.5);
+  z-index: 1;
+}
+
+.w {
+  color: #6C757D;
+}
+
+.y {
+  color: white !important;
+  border-radius: 0px;
+  background-color: #00b0b5 !important;
+
+}
+
+.g {
+  position: relative;
+  overflow: hidden;
+}
+
+.l {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .5s;
+}
+
+.over12 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background: rgba(61, 70, 77, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.icon {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  background-color: #FFFFFF !important;
+
+}
+
+.img12 {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-title {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 50%;
+  left: 0;
+  border-top: 1px dashed #bec5cb;
+  z-index: -1;
+}
+
+.cate-h {
+  background-color: white;
+  color: #3d464d;
+}
+
+.z {
+  background-color: #00b0b5;
+}
+
+.aaa {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.s1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: #e9ecef;
+}
+
+@media(max-width:768px) {
+  .moblogo {
+    display: block;
+  }
+
+  .weblogo {
+    display: none;
+  }
+
+}
