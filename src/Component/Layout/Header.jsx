@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import React from "react";
 
-
 function Header() {
   return (
     <>
@@ -17,10 +16,10 @@ function Header() {
                   <Link className="a" to="/contact">
                     Contact
                   </Link>
-                  <Link className="a" to="">
+                  <Link className="a" to="#">
                     Help
                   </Link>
-                  <Link className="a" to="">
+                  <Link className="a" to="#">
                     FAQs
                   </Link>
                 </div>
@@ -36,12 +35,14 @@ function Header() {
                       My Account
                     </button>
                     <div className="dropdown-menu dropdown-menu-right">
-                      <button className="dropdown-item" type="button">
+                      <Link className="btn dropdown-item " to="/login">
+                        {" "}
                         Sign in
-                      </button>
-                      <button className="dropdown-item" type="button">
+                      </Link>
+                      <Link className="btn dropdown-item " to="/registration">
+                        {" "}
                         Sign up
-                      </button>
+                      </Link>
                     </div>
                   </div>
                   <div className="btn-group mx-2">
@@ -86,7 +87,7 @@ function Header() {
                   </div>
                 </div>
                 <div className="d-inline-flex align-items-center d-block d-lg-none">
-                  <Link to="" className="btn px-0 ml-2">
+                  <Link to="#" className="btn px-0 ml-2">
                     <i className="fas fa-heart text-dark"></i>
                     <span
                       className="badge text-dark border border-dark rounded-circle"
@@ -95,7 +96,7 @@ function Header() {
                       0
                     </span>
                   </Link>
-                  <Link to="" className="btn px-0 ml-2">
+                  <Link to="#" className="btn px-0 ml-2">
                     <i className="fas fa-shopping-cart text-dark"></i>
                     <span
                       className="badge text-dark border border-dark rounded-circle"
@@ -109,7 +110,7 @@ function Header() {
             </div>
             <div className="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex ba">
               <div className="col-lg-4">
-                <Link to="">
+                <Link to="/">
                   <img
                     src="https://logo.com/image-cdn/images/kts928pd/production/0089b7ae1ed394f041c5f7929e111c11e8eafe4d-424x421.png?w=1080&q=72"
                     alt=""
@@ -148,7 +149,7 @@ function Header() {
             <div className="row px-xl-5">
               <div className="col-lg-3 d-none d-lg-block y">
                 <Link
-                  className="btn align-item-center d-flex justify-content-between w-100 y"
+                  className="btn align-item-center d-flex justify-content-between w-100 y "
                   to=""
                   style={{ height: "65px", padding: "22px 30px" }}
                 >
@@ -175,7 +176,7 @@ function Header() {
 
                   <button
                     className="navbar-toggler"
-                    data-bs-target="#fardeen"
+                    data-bs-target="#anurag"
                     data-bs-toggle="collapse"
                   >
                     <span className="navbar-toggler-icon"></span>
@@ -183,7 +184,7 @@ function Header() {
 
                   <div
                     className="navbar-collapse justify-content-between collapse"
-                    id="fardeen"
+                    id="anurag"
                   >
                     <div className="navbar-nav me-auto py-0">
                       <Link className="nav-item nav-link active" to="/">

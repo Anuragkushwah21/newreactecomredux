@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Registration() {
+  const [data,setData]=useState()
+
+
   return (
     <>
       <div className="container mt-5">
@@ -41,6 +44,17 @@ function Registration() {
                       className="form-control"
                       id="password"
                       placeholder="Enter password"
+                    />
+                  </div>
+                  <div className="mb-3">
+                    <label htmlFor="confirm password" className="form-label">
+                      Confirm Password
+                    </label>
+                    <input
+                      type="password"
+                      className="form-control"
+                      id="password"
+                      placeholder="Enter your confirm password"
                     />
                   </div>
                   <div className="text-center">
